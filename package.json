@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ErandiCVC13/Intelimetrica/issues"
   },
-  "homepage": "https://github.com/ErandiCVC13/Intelimetrica#readme"
+  "homepage": "https://github.com/ErandiCVC13/Intelimetrica#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0"
+  }
 }

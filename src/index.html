@@ -6,15 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Melp</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/ICON.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
+    <script src="https://kit.fontawesome.com/4dab2e7d9f.js"></script>
 </head>
 
 <body>
-    <button id="order">Ordenar</button>
-    <button id="orderal">Ordenar</button>
-    <ul class="collection" id="print-data">
-    </ul>
-    <section id=""></section>
+
+    <nav class="navbar navbar-expand-lg  fixed-top navbar-dark nav-color font-nav ">
+        <a class="navbar-brand " href="#"><img
+                src="./assets/restaurant-cutlery-circular-symbol-of-a-spoon-and-a-fork-in-a-circle.png" alt=""> MELP</a>
+    </nav>
+
+    <section class="main">
+        <div class="container text-center p-3 mb-2 bg-light text-dark rounded">
+            <div class="row">
+                <div class="col-sm">
+                    <h2 class="title">Directorio de los MEJORES lugares para comer en
+                        México!</h2>
+
+                    <button class="myButton" id="show-data">VER</button>
+                </div>
+                <div class="col-sm">
+
+                    <fieldset>
+                        <legend>Ordenar por Nombre: </legend>
+                        <button class="myButton" id="order-by-name-asc">A - Z</button>
+                        <button class="myButton" id="order-by-name-des">Z - A</button>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Ordenar por Rating: </legend>
+                        <button class="myButton" id="order-by-rating-asc">1 - 5</button>
+                        <button class="myButton" id="order-by-rating-des">5 - 1</button>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <p class="collection padding-colle" id="print-data">
+        </p>
+    </section>
+    <footer class="footer">
+        <p>MELP ®️</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
     <script src="index.js"></script>
 
 </body>
