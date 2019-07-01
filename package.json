@@ -1,0 +1,28 @@
+{
+  "name": "inter",
+  "version": "1.0.0",
+  "description": "Location map of restaurants on the ranking top",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErandiCVC13/Intelimetrica.git"
+  },
+  "keywords": [
+    "MAP",
+    "FOOT",
+    "RESTAURANT",
+    "Ranking"
+  ],
+  "author": "Erandi Cuervo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErandiCVC13/Intelimetrica/issues"
+  },
+  "homepage": "https://github.com/ErandiCVC13/Intelimetrica#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0"
+  }
+}
